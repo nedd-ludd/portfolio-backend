@@ -1,6 +1,7 @@
 from django.urls import path
+
 from .views import ContactListView
 
-urlpaterns = [
+urlpatterns = [
     path('', ContactListView.as_view()),
 ]
